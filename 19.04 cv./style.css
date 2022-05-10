@@ -1,0 +1,153 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.skills .box h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+.skills .box  .percent{
+position: relative;
+width: 100%;
+height: 10px;
+background-color: #f0f0f0;
+}
+.skills .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4 ;
+}
+h1{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+p{
+   margin-left: 500px;
+    width: 900px;
+    height: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+b{
+    margin-left: 500px;
+    font-size: 24px;
+    color: #848c99;
+}
+strong{
+    margin-left: 200px;
+    font-size: 24px;
+    
+}
+.sunu{
+    margin-left: 245px;
+}
+.sdoi{
+    margin-left: 203px;
+}
+.tot{
+    width: 800px;
+    margin-left: 500px;
+}
+.intereset ul{
+    display: grid;
+    grid-template-columns: repeat(4,1r);
+}
+.intereset ul li {
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.intereset ul li .fa{
+    color: #03a9f4;
+    font-size: 18px;
+    width: 20px;
+}
+
+.profil{
+    width: 400px;
+    height: 400px;
+    margin-left: -500px;
+    margin-top: -900px;
+}
+.img{
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 200px;
+    text-align: center;
+
+}
+.despre{
+    background-color: #03a9f4;
+    width: 400px;
+    height: 100%;
+}
+.name{
+    margin-left: 110px;
+    height: 60px;
+    width: 200px;
+    color: white;
+}
+h5{
+    margin-left: 75px;
+    font-size: 25px;
+    margin-top: -15px;
+    color: white;
+}
+.contact{
+    margin-left: 20px;
+    height: 60px;
+    width: 200px;
+    color: white;
+}
+.fa-solid{
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.fa-brands{
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.linkedin{
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+.educatie{
+    color: rgb(158, 224, 17);
+    font-size: 20px;
+    margin-left: 26px;
+    margin-top: -30px;
+}
+h3{
+    margin-left: 25px;
+    color: white;
+    width: 259px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.cehu{
+    margin-left: 26px;
+    color: white;
+    margin-top: -10px;
+}
+.tott{
+    margin-top: -1090px;
+}
